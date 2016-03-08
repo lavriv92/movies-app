@@ -48,6 +48,7 @@ class MoviesList extends Component {
         </div>
         <MoviesFilter />
         <div className="row">
+          <h3>Total: {this.props.total}</h3>
           {movies}
         </div>
         <div className="row text-center">
